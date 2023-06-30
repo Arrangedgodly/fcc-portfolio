@@ -43,7 +43,7 @@ const projects = [
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen w-screen">
+    <div className="flex flex-col items-center justify-center min-h-screen w-full">
       <h1 className="md:text-5xl text-3xl font-bold md:m-10 m-5 text-center text-primary-content">
         Graydon Wasil's FreeCodeCamp Projects
       </h1>
@@ -64,8 +64,8 @@ function App() {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h3 className="card-title md:text-lg text-md">{project.name}</h3>
-              <p className="md:text-md text-sm">{project.description}</p>
+              <h3 className="card-title md:text-2xl text-md">{project.name}</h3>
+              <p className="md:text-xl text-sm">{project.description}</p>
               <div className="card-actions items-center justify-center">
                 <a
                   className="btn btn-primary btn-sm text-xs"
