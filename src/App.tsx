@@ -50,10 +50,10 @@ function App() {
       <h2 className="md:text-3xl text-xl font-bold md:m-5 m-2 text-center text-primary">
         Front End Libraries
       </h2>
-      <div className="flex flex-wrap justify-around md:m-5 m-2 w-[85%]">
+      <div className="flex flex-wrap justify-around md:m-4 m-2 w-[85%]">
         {projects.map((project) => (
           <div
-            className="card card-compact basis-1/4 flex-1 bg-primary text-primary-content shadow-xl md:m-5 m-2 shadow-xl image-full"
+            className="card card-compact flex flex-1 flex-col md:flex-row bg-primary text-primary-content shadow-xl m-5 shadow-xl image-full max-w-xl mx-auto"
             key={project.name}
           >
             <figure>
