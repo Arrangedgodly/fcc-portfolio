@@ -64,18 +64,18 @@ function App() {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h3 className="card-title md:text-2xl text-md">{project.name}</h3>
-              <p className="md:text-xl text-sm">{project.description}</p>
+              <h3 className="card-title md:text-xl text-md">{project.name}</h3>
+              <p className="md:text-lg text-sm">{project.description}</p>
               <div className="card-actions items-center justify-center">
                 <a
-                  className="btn btn-primary btn-sm text-xs"
+                  className="btn btn-primary md:btn-md btn-sm text-xs"
                   href={project.url}
                   target="_blank"
                 >
                   Go to Project
                 </a>
                 <a
-                  className="btn btn-accent btn-sm text-xs"
+                  className="btn btn-accent md:btn-md btn-sm text-xs"
                   href={project.code}
                   target="_blank"
                 >
